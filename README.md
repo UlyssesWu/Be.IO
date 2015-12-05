@@ -1,5 +1,7 @@
 # Be.IO
 
+[![Build Status](https://travis-ci.org/jamesqo/Be.IO.svg?branch=master)](https://travis-ci.org/jamesqo/Be.IO) [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/jamesqo/Be.IO?branch=master&svg=true)](https://ci.appveyor.com/project/jamesqo/be-io)
+
 Be.IO is a fast big-endian implementation of .NET's BinaryReader and BinaryWriter.
 
 ## Installation
