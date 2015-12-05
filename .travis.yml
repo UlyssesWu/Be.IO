@@ -4,8 +4,8 @@ install:
   - source ~/.dnx/dnvm/dnvm.sh
   - dnvm upgrade
 script:
+  - cd src/Be.IO
   - dnu restore
   - dnu build
-  - dnx
 notifications:
   email: false
