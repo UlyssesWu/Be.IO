@@ -1,10 +1,25 @@
 ﻿{
-	"version": "1.0.0-*",
-	"description": "Be.IO Class Library",
-	"authors": [ "James" ],
-	"tags": [ "" ],
-	"projectUrl": "",
-	"licenseUrl": "",
+	"title": "Be.IO",
+	"version": "1.0.0",
+	"description": "A big-endian BinaryReader/Writer implementation for .NET.",
+	"authors": [ "James Ko" ],
+	"owners": [ "James Ko" ],
+	"tags": [
+		"big-endian",
+		"bigendian",
+		"big",
+		"endian",
+		"binary",
+		"reader",
+		"writer",
+		"binaryreader",
+		"binarywriter",
+		".net",
+		"c#",
+		"csharp"
+	],
+	"projectUrl": "https://github.com/jamesqo/Be.IO",
+	"licenseUrl": "https://github.com/jamesqo/Be.IO/blob/master/license.bsd",
 
 	"frameworks": {
 		".NETPortable,Version=v4.5,Profile=Profile259": {
