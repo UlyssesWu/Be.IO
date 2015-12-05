@@ -32,7 +32,7 @@ using Be.IO;
 After that, you can use `BeBinaryWriter` and `BeBinaryReader` the same way you would use a regular binary reader/writer. Example:
 
 ```csharp
-using (var file = File.Open(@"C:\foo.txt", FileMode.Create))
+using (var file = File.Open("foo.txt", FileMode.Create))
 {
     var writer = new BeBinaryWriter(file);
     writer.WriteInt16(0x1357);
