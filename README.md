@@ -46,6 +46,10 @@ using (var file = File.Open("foo.txt", FileMode.Create))
 }
 ```
 
-## License?
+## WARNING!
+
+Character-based methods like `ReadString` still read characters in little-endian. This is because the `Encoding` you pass into the stream reader/writer is responsible for converting characters to bytes and vice versa, so it gets to choose which endian to use. If you need to read/write in an encoding that is endian-sensitive (like UTF-16), you'll have to find a big-endian version of that encoding.
+
+## License
 
 Be.IO is licensed under the [BSD simplified license](license.bsd).
