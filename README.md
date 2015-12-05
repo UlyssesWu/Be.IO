@@ -45,3 +45,7 @@ using (var file = File.Open("foo.txt", FileMode.Create))
     long l = reader.ReadInt64();
 }
 ```
+
+## License?
+
+Be.IO is licensed under the [BSD simplified license](license.bsd).
