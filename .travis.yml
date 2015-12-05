@@ -1,0 +1,6 @@
+language: csharp
+solution: Be.IO.sln
+mono:
+  - nightly
+notifications:
+  email: false
