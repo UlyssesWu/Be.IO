@@ -1,6 +1,11 @@
 language: csharp
-solution: Be.IO.sln
-mono:
-  - nightly
+install:
+  - curl -sSL https://raw.githubusercontent.com/aspnet/Home/dev/dnvminstall.sh | sh
+  - source ~/.dnx/dnvm/dnvm.sh
+  - dnvm upgrade
+script:
+  - dnu restore
+  - dnu build
+  - dnx
 notifications:
   email: false
