@@ -1,0 +1,5 @@
+init:
+  - dnvm upgrade
+install:
+  - dnu restore
+configuration: Release
