@@ -6,6 +6,10 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1E61907F-005E-439E-A86B-D4E327ABB7C7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1A21B4DA-48B3-400B-8BD6-B8DEAD9B9B79}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Be.IO", "src\Be.IO\Be.IO.csproj", "{D09F2FAF-051A-4C1C-80E1-35DB3EAB008F}"
 EndProject
