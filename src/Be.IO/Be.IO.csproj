@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>A big-endian BinaryReader/Writer implementation for .NET.</Description>
+    <AssemblyTitle>Be.IO</AssemblyTitle>
+    <Authors>James Ko</Authors>
+    <TargetFrameworks>netstandard1.0</TargetFrameworks>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AssemblyName>Be.IO</AssemblyName>
+    <PackageId>Be.IO</PackageId>
+    <PackageTags>big-endian;bigendian;big;endian;binary;reader;writer;binaryreader;binarywriter;.net;c#;csharp</PackageTags>
+    <PackageProjectUrl>https://github.com/jamesqo/Be.IO</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/jamesqo/Be.IO/blob/master/license.bsd</PackageLicenseUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  
+</Project>
