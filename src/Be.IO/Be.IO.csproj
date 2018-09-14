@@ -1,10 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <Description>A big-endian BinaryReader/Writer implementation for .NET.</Description>
     <AssemblyTitle>Be.IO</AssemblyTitle>
     <Authors>James Ko</Authors>
-    <TargetFrameworks>netstandard1.0</TargetFrameworks>
+    <TargetFrameworks>netstandard1.0;net45</TargetFrameworks>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <AssemblyName>Be.IO</AssemblyName>
     <PackageId>Be.IO</PackageId>
